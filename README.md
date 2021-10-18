@@ -1,4 +1,11 @@
-# espanso-package-example
-An example on how to create an espanso package.
+# espanso-get-ip-pack
+Espanso package to get public IP
 
-For more information, read the [documentation](https://espanso.org/docs/)
+Works with both Linux and Windows
+and Requires Curl Installed
+
+## Usage:
+
+:getip for linux
+
+:winip for windows
