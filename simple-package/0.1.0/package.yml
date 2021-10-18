@@ -1,8 +1,22 @@
-# Simple package
+# getip package
 
-name: simple-package 
+name: get-ip
 parent: default
 
-matches:
-  - trigger: ":hw"
-    replace: "hello world"
+matches:  
+  - trigger: ":getip"
+    replace: "{{output}}"
+    vars:
+      - name: output
+        type: shell
+        params:
+          cmd: "curl ifconfig.me"
+
+  - trigger: ":winip"
+    replace: "{{output}}"
+    vars:
+      - name: output
+        type: shell
+        params:
+          cmd: "curl ifconfig.me"
+          shell: cmd
