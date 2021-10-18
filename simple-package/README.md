@@ -6,4 +6,4 @@ package_version: "0.1.0"
 package_author: "yogeshbatra"
 package_repo: "https://github.com/yogeshbatra/get_ip"
 ---
-A espanso package to get IP address
+A espanso package to get IP address require CURL
