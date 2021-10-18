@@ -1,9 +1,9 @@
 ---
-package_name: "simple-package"
-package_title: "Simple Package"
-package_desc: "A simple package to say Hello World."
-package_version: "0.1.0"
-package_author: "Federico Terzi"
-package_repo: "https://github.com/federico-terzi/espanso-package-example"
+package_name: "get-ip"
+package_title: "Get Ip"
+package_desc: "A espanso package to get IP address"
+package_version: "0.0.1"
+package_author: "yogeshbatra"
+package_repo: "https://github.com/yogeshbatra/get_ip"
 ---
-A simple package to say "Hello World"
+A espanso package to get IP address
